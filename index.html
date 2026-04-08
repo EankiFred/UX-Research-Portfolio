@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Jannis Düster — UX Research Portfolio</title>
+    <meta name="description" content="UX Research portfolio: case studies, methods, impact, and research operations." />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+    <header class="nav">
+        <div class="container nav-inner">
+            <a class="brand" href="index.html">
+                <span class="logo" aria-hidden="true"></span>
+                <div>
+                    <b>Jannis Düster</b>
+                    <div class="small">UX Research • HCI</div>
+                </div>
+            </a>
+            <nav class="links">
+                <a class="active" href="index.html">Work</a>
+                <a href="about.html">About</a>
+                <a href="about.html#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+
+       
+
+        <!-- CASE STUDIES -->
+        <section class="section" id="case-studies">
+            <h2>Case studies</h2>
+
+            <div class="grid cards">
+
+                <!-- NetLogCom -->
+                <article class="card span-12">
+                    <div class="pad">
+                        <span class="badge">Featured</span>
+                        <h3 style="margin-top:10px;">NetLogCom — Enhancing usability in environmental monitoring</h3>
+                        <p class="muted">
+                            In collaboration with <b>SEBA Hydrometrie GmbH &amp; Co. KG</b> and <b>de-build.net POWER
+                                GmbH</b>,
+                            I analyzed and redesigned the NetLogCom software interface to make it easier to
+                            use—especially for less experienced users.
+                            I built a high-fidelity prototype and validated it through on-site usability testing with
+                            <b>35 domain experts</b>.
+                        </p>
+
+                        <div class="two-col">
+                            <div class="metric">
+                                <b>Methods</b>
+                                <span>
+                                    Cognitive walkthroughs • high-fidelity prototyping • A/B usability testing
+                                    (within-subjects) • think-aloud •
+                                    NASA-TLX • ISONORM 9241/110-S • affinity mapping • severity ratings
+                                </span>
+                            </div>
+                            <div class="metric">
+                                <b>Outcome</b>
+                                <span>Prototype performed significantly better than the original in effectiveness,
+                                    efficiency, and satisfaction.</span>
+                            </div>
+                        </div>
+
+                        <div class="actions">
+                            <a class="btn primary" href="case-netlogcom.html">Read the case study</a>
+                            <a class="btn" href="case-netlogcom.html#artifacts">Artifacts</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Placeholder for next -->
+                <article class="card span-12">
+                    <div class="pad">
+                        <span class="badge">Next</span>
+                        <h3 style="margin-top:10px;">VR intervention study — cyberbullying prevention</h3>
+                        <p class="muted">
+                            This case study will be added soon.
+                        </p>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div>© <span id="y"></span> Jannis Düster</div>
+            <div class="small">Static site (GitHub Pages).</div>
+        </footer>
+
+    </main>
+
+    <script>
+        document.getElementById('y').textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
