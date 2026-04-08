@@ -1,6 +1,11 @@
 # UX Research Portfolio
+[🔗 View Live Portfolio](https://eankifred.github.io/UX-Research-Portfolio/)
 
 A static portfolio website showcasing UX research case studies, methods, research operations, and contact information.
+
+## Preview
+
+[![Portfolio Preview](assets/img/portfolio-preview.png)](https://eankifred.github.io/UX-Research-Portfolio/)
 
 ## Overview
 
